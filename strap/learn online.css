@@ -1,4 +1,4 @@
-#come {color: #339933;
+#come {color: #808080;
 font-size: 25px;}
 li {list-style: none;
 border-left: 1px solid #d9d9d9;}
@@ -6,3 +6,28 @@ border-left: 1px solid #d9d9d9;}
 #search {border-left: 0px;
 color: #d9d9d9;}
 #overallnav{font-size: 13px;color: #d9d9d9}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      height: 400px;
+  }
+.logo1{padding-top: 20px; padding-left: 205px;padding-right:50px; float: left;}
+.logo2{padding-top: 20px; padding-right: 50px;float: left;}
+.logo3{padding-top: 20px; padding-right: 50px;float: left;}
+.logo4{padding-top: 20px; padding-right: 50px;float: left;}
+.logo5{padding-top: 20px; padding-right: 50px;float: left;}
+.logo6{padding-top: 20px; padding-right: 50px;float: left;}
+#foot{color:#808080; }
+#foothead{font-style: italic;font-size: 20px;}
+#footbody{font-size: 12px;}
+#footfoot{font-size: 10px;}
+#bottomlist{font-size: 12px;
+padding: 0px;
+margin:0px;}
+#flow{float: left;padding-left: 320px;bottom: 10px;position: relative;}
+#list0{float: left;padding-left: 40px;bottom: 2px;position: relative;}
+#list1{float: left;padding-left: 40px;}
+#list2{float: left;padding-left: 40px;bottom: 20px;position: relative;}
+#list3{float: left;padding-left: 40px; bottom: 20px;position: relative;}
+dd{color: #a6a6a6;}
