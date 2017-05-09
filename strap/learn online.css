@@ -1,10 +1,16 @@
 #come {color: #808080;
-font-size: 25px;}
+font-size: 25px;
+font-weight: bold;
+line-height:.100px;
+text-transform:uppercase;
+position: relative;top: 10px;}
 li {list-style: none;
 border-left: 1px solid #d9d9d9;}
+#nav {}
 #Institutions {border-right: 1px solid #d9d9d9;}
 #search {border-left: 0px;
-color: #d9d9d9;}
+color: #d9d9d9;    padding: 6px 6px;border-radius: 0px;}
+#cata a:hover #cata a:focus{text-decoration: none;}
 #overallnav{font-size: 13px;color: #d9d9d9}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -12,23 +18,112 @@ color: #d9d9d9;}
       margin: auto;
       height: 400px;
   }
-.logo1{padding-top: 20px; padding-left: 205px;padding-right:50px; float: left;}
+/***************.logo1{padding-top: 20px; padding-left: 205px;padding-right:50px; float: left;}
 .logo2{padding-top: 20px; padding-right: 50px;float: left;}
 .logo3{padding-top: 20px; padding-right: 50px;float: left;}
 .logo4{padding-top: 20px; padding-right: 50px;float: left;}
 .logo5{padding-top: 20px; padding-right: 50px;float: left;}
-.logo6{padding-top: 20px; padding-right: 50px;float: left;}
+.logo6{padding-top: 20px; padding-right: 50px;float: left;}*****************/
 #foot{color:#808080; }
 #foothead{font-style: italic;font-size: 20px;}
 #footbody{font-size: 12px;}
 #footfoot{font-size: 10px;}
-#bottomlist{font-size: 12px;
-padding: 0px;
-margin:0px;}
-#flow{float: left;padding-left: 320px;bottom: 10px;position: relative;}
-#list0{float: left;padding-left: 40px;bottom: 2px;position: relative;}
-#list1{float: left;padding-left: 40px;}
-#list2{float: left;padding-left: 40px;bottom: 20px;position: relative;}
-#list3{float: left;padding-left: 40px; bottom: 20px;position: relative;}
-dd{color: #a6a6a6;}
+#bottomlist{font-size: 12px;}
 #join{position: relative;bottom: 190px;left: 200px;}
+body{background-color: ;}
+a:hover a:active{color: black;}
+/***************************large devices*******************/
+@media (min-width: 992px){
+	.logo1{float: left;margin-left:350px;}
+	.logo2{float: left;margin-left:50px;}
+	.logo3{float: left;margin-left:50px;}
+	.logo4{float: left;margin-left:50px;}
+	.logo5{float: left;margin-left:50px;display: none;}
+	.logo6{float: left;margin-left:50px;display: none;}
+}
+#my-logos{margin-top: 20px;}
+
+/***************************medium devices******************/
+@media (min-width: 768px) and (max-width: 991px){
+	.logo6{display: none;}
+    .logo5{display: none;}
+    .logo1{float: left;margin-left:50px;}
+	.logo2{float: left;margin-left:50px;}
+	.logo3{float: left;margin-left:50px;}
+	.logo4{float: left;margin-left:50px;}
+	.navbar-brand {float: left;height: 50px;padding: 10px 10px;font-size: 18px;line-height: 20px;}
+
+	#Institutions {
+    width: 85px;
+    position: relative;
+    right: 10px;}
+   .navbar-form .input-group .form-control, .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn {
+    width: 120px;
+    position: relative;
+    right: 15px;clear: both;}
+    #cata{width: 30px;}
+    .navbar-form{width: 250px;}
+    .navbar-right{position: relative;bottom: 10px;}
+}
+
+/***************************small devices*******************/
+@media (max-width: 767px){
+	.logo6{display: none;}
+    .logo5{display: none;}
+    .logo1{float: left;margin-left:50px;}
+	.logo2{float: left;margin-left:50px;}
+	.logo3{float: left;margin-left:50px;}
+	.logo4{float: left;margin-left:50px;}
+	.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+}
+
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
