@@ -6,242 +6,65 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="learn online.css">
 	<title>Online Lectures Made Easy</title>
 </head>
 <body>
+	<!--header-->
 	<header>
-	<nav id="nav" class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div navbar-header>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<!--start of navbar-brand--> 
+				<div navbar-brand>
+					<a href="learn online.html" id="header" class="pull-left">
+						<div><i>LEARN ONLINE</i></div>
+					</a>
+				</div>
+				<!--end of navbar-brand--> 
+				<!--collapsible icon-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
 				<span class="icon-bar"></span>
        		 	<span class="icon-bar"></span>
         		<span class="icon-bar"></span>                      
-      		</button>
-				<i><a class="navbar-brand" href="#" id="come">Learn Online</a></i>
-			<div id="overallnav">
-			<div class="collapse navbar-collapse" id="myNavbar">
-			<ul id="Institutions" class="nav navbar-nav ">
-				<li><a href="#">Institutions</a></li>
-			</ul>
-			<ul>
-			<li>
-			<a href="#">
-    		<form class="navbar-form navbar-left">
-  				<div class="input-group col-xs-12">
-  				<label class="sr-only" for="search"></label>
-  				<span id="cata" class="input-group-addon">Catalog</span>
-    				<input type="text" class="form-control" placeholder="search catalog">
-    			<div class="input-group-btn">
-      			<button id="search" class="btn btn-default" type="submit">
-        		<i class="glyphicon glyphicon-search"></i>
       			</button>
-    			</div>
-  				</div>
-			</form>
-			</a>
-			</li>
-			</ul>
-    		<ul id="right" class="nav navbar-nav navbar-right">
-				<li><a href="#">For Enterprise</a></li>
-				<li><a href="#">Log In</a></li>
-				<li><a href="#">Sign Up</a></li>
-			</ul>
+      			<!--end of collapsible icon-->
+      			<!--collapsible part in small screen-->
+      			<div class="collapse navbar-collapse" id="myNavbar">
+      				<ul class="nav navbar-nav">
+	      				<li>
+	      					<a href="#" id="inst">Institutions</a>
+	      				</li>
+	      				<li>
+			      			<a href="#" id="cata">
+			    				<form class="navbar-form">
+			  						<div class="input-group">
+			  							<label class="sr-only" for="search"></label>
+			  							<span class="input-group-addon">Catalog</span>
+			    						<input type="text" class="form-control" placeholder="search catalog">
+			    						<div class="input-group-btn">
+			      						<button id="search" class="btn btn-default" type="submit">
+			        						<i class="glyphicon glyphicon-search"></i>
+			      						</button>
+			      						</div>
+			    					</div>
+								</form>
+							</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" id="navbar-right-1">For Enterprise</a></li>
+						<li><a href="#" id="navbar-right-2">Log In</a></li>
+						<li><a href="#" id="navbar-right-3">Sign Up</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
 	</header>
-	<div class="container-fluid">
-		<!--My carousel-->
-		<div id="caro" class="carousel slide" data-ride="carousel" data-interval="3000">
-			<ol class="carousel-indicators">
-				<li data-target="#caro" data-slide-to="0" class="active"></li>
-				<li data-target="#caro" data-slide-to="1"></li>
-				<li data-target="#caro" data-slide-to="2"></li>
-				<li data-target="#caro" data-slide-to="3"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active"><img src="My Gallery/online-student.gif"></div>
-				<div class="item"><img src="My Gallery/online-student 2.gif"></div>
-				<div class="item"><img src="My Gallery/student.jpg"></div>
-				<div class="item"><img src="My Gallery/young-women-sitting-desk-using-laptop.jpg"></div>
-				<a id="join" href="#" class="btn btn-info btn-lg" role="button">Join for free</a>
-			</div>
-			<a class="left carousel-control" href="#caro" role="button" data-slide="prev">
-      			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      			<span class="sr-only">Previous</span>
-    		</a>
-    		<a class="right carousel-control" href="#caro" role="button" data-slide="next">
-      			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      			<span class="sr-only">Next</span>
-    		</a>
-		</div>
-		<div id="my-logos">
-		<p class="logo1"><img src="My Gallery/Penn-logo.png" width="60px" height="25px"></p>
-		<p class="logo2"><img src="My Gallery/jhu_logo.png" width="130px" height="25px"></p>
-		<p class="logo3"><img src="My Gallery/U-M_bmp.png" width="100px" height="25px"></p>
-		<p class="logo4"><img src="My Gallery/stand.png" height="25px" width="100px"></p>
-		<p class="logo5"><img src="My Gallery/uc.png" height="25px" width="140px"></p>
-		<p class="logo6"><img src="My Gallery/duke.png" height="25px" width="60px"></p>
-		</div>
-	</div>
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<!--end of header-->
+</body>
 
 
 
