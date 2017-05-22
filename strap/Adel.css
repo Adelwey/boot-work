@@ -1,0 +1,201 @@
+body{
+	background-color: lightblue;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	width: 100%;
+	}
+
+
+li{
+	list-style: none;
+	border-left: 1px solid lightblue;
+	padding-top:50px; 
+	line-height:45px;
+    display: block;
+    padding: 10px 5px;
+    left:10px;
+}
+
+
+#header-nav{ 
+	border-radius: 0px;
+	border: 0px;
+	background-color: navy;                     /*navbar*/
+	height: 70px;
+	}
+
+
+#header{ 
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-decoration: none;                       /*icon "learn online" */
+	position: relative;
+	bottom: 2px;
+	margin-left: -65px;
+	line-height: 80px;
+	}
+
+
+#header-nav a:hover{
+	color: lightblue;                          /*navbar*/
+	}
+
+
+#search{
+	border-radius: 0px;
+	border-left: 0px;
+}
+
+
+#inst{
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+#navbar-right-1{
+	color: white;
+}
+
+#navbar-right-2{
+	color: white;
+}
+
+
+#navbar-right-3{
+	color: white;
+}
+
+
+#cata{
+	padding: 0px 0px;
+	width: 270px;
+	right: 20px;
+	padding-left: 10px;
+}
+
+
+.navbar-right{
+	position: relative;
+	left: 70px;
+}
+
+
+
+button .navbar-toggle a:hover{
+	color: lightblue;
+}
+
+
+/***Extra Large devices only***/
+
+@media(min-width: 1269px){
+	#header{margin-left: -64px;
+		margin-right: 10px;}
+}
+
+
+/****Extra Large devices 2*****/
+
+@media(max-width: 1270px) and (min-width: 1240px){
+	#header{margin-left: -50px;}
+	#navbar-right-3{padding-right: 40px;}
+}
+
+
+/***Large devices only 1***/
+@media(max-width: 1239px) and (min-width: 1200px){
+	#header{margin-left: -32px;}
+	#navbar-right-3{padding-right: 70px;}
+}
+
+
+/***Large devices only 2***/
+@media(max-width:1199px) and (min-width: 1150px){
+	#header{margin-left: -105px;}
+	#navbar-right-3{margin-right: -40px;}
+}
+
+
+/***Large devices only 2***/
+@media(max-width:1149px) and (min-width: 1110px){
+	#header{margin-left: -85px;}
+	#navbar-right-3{padding-right: 0px;}
+}
+
+
+/***Medium devices only 1***/
+@media(max-width:1071px) and (min-width:990px){
+	#header{font-size:1.8em; }
+}
+
+
+/***Medium devices only 1***/
+@media(max-width:991px) and (min-width:768px){
+	#header{font-size:1.6em; 
+		position: relative;
+		left: 41px;}
+}
+
+
+/***Small devices only ***/
+@media(max-width: 767px){
+	#header{position: absolute;
+		left: 80px;
+		top: -14px;
+		font-size: 1.8em;}
+	#header-nav{height: 60px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
