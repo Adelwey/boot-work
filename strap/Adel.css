@@ -92,24 +92,43 @@ button .navbar-toggle a:hover{
 
 /***Extra Large devices only***/
 
-@media(min-width: 1269px){
+@media(min-width: 1330px){
 	#header{margin-left: -64px;
-		margin-right: 10px;}
+		margin-right: -20px;
+		right: 30px;}
+	#navbar-right-3{padding-right: 0px}
 }
 
 
 /****Extra Large devices 2*****/
 
-@media(max-width: 1270px) and (min-width: 1240px){
-	#header{margin-left: -50px;}
-	#navbar-right-3{padding-right: 40px;}
+@media(max-width: 1329px) and (min-width: 1310px){
+	#header{margin-left: -85px;
+		margin-right: 20px}
+	#navbar-right-3{padding-right: 10px;}
 }
 
 
 /***Large devices only 1***/
-@media(max-width: 1239px) and (min-width: 1200px){
-	#header{margin-left: -32px;}
-	#navbar-right-3{padding-right: 70px;}
+@media(max-width: 1309px) and (min-width: 1285px){
+	#header{margin-left: -70px;
+		margin-right: 10px;}
+	#navbar-right-3{padding-right: 10px;}
+}
+
+/***Large devices only 1.5***/
+@media(max-width:1270px) and (min-width: 1250px){
+	#header{margin-left:-50px;
+		margin-right: 10px;}
+	#navbar-right-3{padding-right: 25px;}
+}
+
+/***Large device ***/
+@media(max-width: 1249px) and (min-width: 1200px){
+	#header{margin-left: -30px;
+		margin-right:10px;}
+	#navbar-right-3{padding-right: 40px;
+		right: 10px;}
 }
 
 
@@ -128,20 +147,54 @@ button .navbar-toggle a:hover{
 
 
 /***Medium devices only 1***/
-@media(max-width:1071px) and (min-width:990px){
-	#header{font-size:1.8em; }
+@media(max-width:1071px) and (min-width:1020px){
+	#header{font-size:1.8em;
+	margin-left: -40px;
+	margin-right: 5px;}
+	#navbar-right-3{padding-right: 35px;
+		right: 10px;}
 }
 
 
-/***Medium devices only 1***/
+/***Medium devices only***/
+@media(max-width:1019px) and (min-width:992px){
+	#header{font-size:1.8em;
+	margin-left: -20px;
+	margin-right: 5px;}
+	#navbar-right-3{padding-right: 45px;
+		right: 10px;}
+}
+
+/***Medium devices2***/
+@media(max-width:991px){
+	#header{padding: 0px;
+		margin: 0px;
+		font-size: 2.5em;
+		line-height: 40px;}
+	#header-nav{height: 300px;}
+	#inst{padding: 0px;
+		margin: 0px;}
+	#cata{padding: 0px;
+		margin: 0px;}
+	#i{padding: 0px;
+		margin: 0px;}
+	#ii{padding: 0px;
+		margin: 0px;}
+	#iii{padding: 0px;
+		margin: 0px;}
+}
+
+
+/***Medium devices only 1
 @media(max-width:991px) and (min-width:768px){
-	#header{font-size:1.6em; 
-		position: relative;
-		left: 41px;}
-}
+	#header{font-size: 1.5em;
+		letter-spacing:-1px;
+		left: 50px;}
+	.navbar-right{margin-right:-58px;
+		padding-left: 0px;}
+}***/
 
-
-/***Small devices only ***/
+/***Small devices only 
 @media(max-width: 767px){
 	#header{position: absolute;
 		left: 80px;
@@ -149,7 +202,7 @@ button .navbar-toggle a:hover{
 		font-size: 1.8em;}
 	#header-nav{height: 60px;}
 
-}
+}***/
 
 
 
